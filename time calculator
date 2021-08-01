@@ -1,0 +1,21 @@
+#include<iostream>
+#include<math.h>
+using namespace std;
+int main(){
+
+int year;
+cout<<"please type in a value"<<endl;
+cin>>year;
+cout<<"the number of months is"<<12*year<<endl;
+cout<<"the number of days are"<<365*year<<endl;
+cout<<"the number of hours are"<<365*24<<endl;
+cout<<"the number of minutes are"<<365*24*60<<endl;
+
+
+
+
+return 0;
+
+
+
+}
