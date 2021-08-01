@@ -1,0 +1,27 @@
+#include<iostream>
+#include<cmath>
+using namespace std;
+int main(){
+double x,y,z;
+cout<<"please enter your first number"<<endl;
+cin>>x;
+cout<<"please enter your second number"<<endl;
+cin>>y;
+cout<<"please enter your third number"<<endl;
+cin>>z;
+if (x>y &&x>z)
+cout<<"the largest number is: "<<x<<endl;
+else if (y>z &&y>x)
+cout<<"the largest number is :"<<y<<endl;
+else if (z>y &&z>x)
+cout<<"the largest number is :"<<z<<endl;
+else if (z<y &&z<x)
+cout<<"the smallest number is :"<<z<<endl;
+else if (x<y &&x<z)
+cout<<"the smallest number is :"<<x<<endl;
+else if (y<z &&y<x)
+cout<<"the smallest number is :"<<y<<endl;
+return 0;
+}
+
+
