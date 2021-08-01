@@ -1,0 +1,16 @@
+#include<iostream>
+#include<string>
+using namespace std;
+int main(){
+string word ;
+cout<<"write a letter"<<endl;
+cin>> word;
+if (word =="a")
+    cout<<"A is for apple"<<endl;
+else if  (word == "z")
+    cout<<"Z is for zebra"<<endl;
+return 0;
+
+
+
+}
