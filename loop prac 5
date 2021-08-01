@@ -1,0 +1,13 @@
+#include<iostream>
+using namespace std;
+int main(){
+double x=2.25;
+while(x<=4.00){
+    cout<<x<<endl;
+    x=x+0.25;
+}
+
+
+return 0;
+
+}
