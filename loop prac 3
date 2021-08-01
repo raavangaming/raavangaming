@@ -1,0 +1,17 @@
+#include<iostream>
+using namespace std;
+int main(){
+int x,y;
+cout<<"please enter the first integer"<<endl;
+cin>>x;
+cout<<"please enter the second integer"<<endl;
+cin>>y;
+
+while(x<=y){
+
+    cout<<x<<endl;
+    x=x+1;
+}
+return 0;
+
+}
